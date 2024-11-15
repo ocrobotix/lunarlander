@@ -53,10 +53,9 @@ nav:
 plugins:
 - search
 - mkdocs-jupyter
-- blogging
 - git-revision-date
 - blogging
-#- blog
+- blog
 
 markdown_extensions:
 - pymdownx.superfences
