@@ -7,6 +7,8 @@ theme:
 
 extra_css:
   - css/extra.css
+  - css/footer.css
+  - css/theme_color.css
 
 nav:
 - INPUTS:
@@ -30,6 +32,7 @@ nav:
 - Blog: blog.md
 - About: about.md
 - Embed: embed.md
+- Test: test.md
 
 plugins:
   - search
