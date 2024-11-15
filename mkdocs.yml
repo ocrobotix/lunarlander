@@ -1,0 +1,61 @@
+site_name: Lunar Lander
+#repo_url: https://github.com/ocrobotix/lunarlander.git
+site_url: https://ocrobotix.github.io/lunarlander/
+
+
+theme:
+  name: readthedocs  # or your current theme
+#  name: material
+  custom_dir: docs/overrides
+
+extra_css:
+  - css/extra.css  # Hides hidden_page.md from navigation
+  
+#extra_javascript:
+#  - assets/protection.js
+  
+#extra_templates:
+#  - password_protect.html
+
+
+nav:
+- INPUTS:
+  - Vehicle: INPUTS/vehicle.ipynb
+  - Environment: INPUTS/environment.ipynb
+
+- OUTPUTS:
+  - Ellipse: OUTPUTS/ellipse.ipynb 
+  - Other: OUTPUTS/other.ipynb 
+
+- MODELS:
+  - Apollo: MODELS/apollo.ipynb
+  - Artemis: MODELS/artemis.ipynb
+  
+- APPENDIX:
+  - Glossary: APPENDIX/glossary.md
+  - References: APPENDIX/references.md
+  - FAQs: APPENDIX/faqs.md
+
+- Blog: blog.md
+- About: about.md
+- Embed: embed.md   # Iframe of hidden_page
+
+# Need to 'pip install -r requirements.txt'
+# pip install mkdocs-jupyter
+# pip install mkdocs-mermaid2-plugin
+# pip install pymdown-extensions
+# pip install mkdocs-blogging-plugin
+# pip install mkdocs-git-revision-date-plugin
+# pip install mkdocs-material-plugins   # material theme has a blog built in
+
+plugins:
+- search
+- mkdocs-jupyter
+- blogging
+- git-revision-date
+- blogging
+#- blog
+
+markdown_extensions:
+- pymdownx.superfences
+- pymdownx.highlight
