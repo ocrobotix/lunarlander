@@ -4,7 +4,7 @@ site_url: https://ocrobotix.github.io/lunarlander/
 
 
 theme:
-  name: readthedocs  # or your current theme
+  name: material  # or your current theme
 #  name: material
   custom_dir: docs/overrides
 
