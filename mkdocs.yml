@@ -1,24 +1,12 @@
 site_name: Lunar Lander
-#repo_url: https://github.com/ocrobotix/lunarlander.git
 site_url: https://ocrobotix.github.io/lunarlander/
 
-
 theme:
-  name: readthedocs  # or your current theme
-  include_search: true
-  navigation_depth: 5   # The number of header levels are shown
-
-#  custom_dir: docs/overrides    # Uncomment if you want simple password protection
+  name: readthedocs
+  navigation_depth: 5  # Number of header levels shown
 
 extra_css:
-  - css/extra.css  # Hides hidden_page.md from navigation
-  
-#extra_javascript:
-#  - assets/protection.js
-  
-#extra_templates:
-#  - password_protect.html
-
+  - css/extra.css
 
 nav:
 - INPUTS:
@@ -26,15 +14,14 @@ nav:
   - Lunar Environment Variables: INPUTS/environment.ipynb
 
 - OUTPUTS:
-  - Vehicle State: OUTPUTS/state.ipynb 
+  - Vehicle State: OUTPUTS/state.ipynb
   - Landing Ellipse: OUTPUTS/ellipse.ipynb
-  - Touchdown Location: OUTPUTS/touchdown.ipynb 
-
+  - Touchdown Location: OUTPUTS/touchdown.ipynb
 
 - MODELS:
   - Apollo: MODELS/apollo.ipynb
   - Artemis: MODELS/artemis.ipynb
-  
+
 - APPENDIX:
   - Glossary: APPENDIX/glossary.md
   - References: APPENDIX/references.md
@@ -42,29 +29,13 @@ nav:
 
 - Blog: blog.md
 - About: about.md
-- Embed: embed.md   # Iframe of hidden_page
-
-# Need to 'pip install -r requirements.txt'
-# pip install mkdocs-jupyter
-# pip install mkdocs-mermaid2-plugin
-# pip install pymdown-extensions
-# pip install mkdocs-blogging-plugin
-# pip install mkdocs-git-revision-date-plugin
-# pip install mkdocs-material-plugins   # material theme has a blog built in
+- Embed: embed.md
 
 plugins:
-- search
-- mkdocs-jupyter
-- git-revision-date
-- blogging
-# - blog    # for mkdocs
-
-markdown_extensions:
-- toc:
-
-- pymdownx.superfences
-- pymdownx.highlight
-
+  - search
+  - mkdocs-jupyter
+  - git-revision-date
+  - blogging
 
 markdown_extensions:
   - toc:
