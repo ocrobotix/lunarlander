@@ -4,8 +4,10 @@ site_url: https://ocrobotix.github.io/lunarlander/
 
 
 theme:
-  name: material  # or your current theme
-#  name: material
+  name: readthedocs  # or your current theme
+  include_search: true
+  navigation_depth: 5   # The number of header levels are shown
+
 #  custom_dir: docs/overrides    # Uncomment if you want simple password protection
 
 extra_css:
@@ -55,8 +57,17 @@ plugins:
 - mkdocs-jupyter
 - git-revision-date
 - blogging
-- blog
+# - blog    # for mkdocs
 
 markdown_extensions:
+- toc:
+
 - pymdownx.superfences
 - pymdownx.highlight
+
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.highlight
