@@ -20,12 +20,14 @@ extra_css:
 
 nav:
 - INPUTS:
-  - Vehicle: INPUTS/vehicle.ipynb
-  - Environment: INPUTS/environment.ipynb
+  - Vehicle Parameters: INPUTS/vehicle.ipynb
+  - Lunar Environment Variables: INPUTS/environment.ipynb
 
 - OUTPUTS:
-  - Ellipse: OUTPUTS/ellipse.ipynb 
-  - Other: OUTPUTS/other.ipynb 
+  - Vehicle State: OUTPUTS/state.ipynb 
+  - Landing Ellipse: OUTPUTS/ellipse.ipynb
+  - Touchdown Location: OUTPUTS/touchdown.ipynb 
+
 
 - MODELS:
   - Apollo: MODELS/apollo.ipynb
