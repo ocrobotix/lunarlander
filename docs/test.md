@@ -37,3 +37,9 @@ dsfasdf
 ###### header 5
 
 fdsfd  fdfd
+
+
+
+
+<!-- Using HTML for more control -->
+<img src="img/artemis-iii-landing-region-candidates.webp" width="50%" alt="Image Title">
