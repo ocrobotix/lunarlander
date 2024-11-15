@@ -53,7 +53,11 @@
          <lastmod>2024-11-15</lastmod>
     </url>
     <url>
-         <loc>https://ocrobotix.github.io/lunarlander/OUTPUTS/other/</loc>
+         <loc>https://ocrobotix.github.io/lunarlander/OUTPUTS/state/</loc>
+         <lastmod>2024-11-15</lastmod>
+    </url>
+    <url>
+         <loc>https://ocrobotix.github.io/lunarlander/OUTPUTS/touchdown/</loc>
          <lastmod>2024-11-15</lastmod>
     </url>
 </urlset>
