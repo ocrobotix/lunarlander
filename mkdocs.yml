@@ -6,7 +6,7 @@ site_url: https://ocrobotix.github.io/lunarlander/
 theme:
   name: material  # or your current theme
 #  name: material
-  custom_dir: docs/overrides
+#  custom_dir: docs/overrides    # Uncomment if you want simple password protection
 
 extra_css:
   - css/extra.css  # Hides hidden_page.md from navigation
