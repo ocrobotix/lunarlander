@@ -1,7 +1,0 @@
-.wy-footer {
-  display: none;
-}
-/* or more specifically */
-footer[role="contentinfo"] {
-  display: none;
-}

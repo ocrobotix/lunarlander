@@ -60,10 +60,29 @@ Click the play button below to watch:
 
 
 
-<video width="100"  controls>
-  <source src="../video/lunarmodule.mkv" type="video/webm">
-  Your browser does not support the video tag. Please use a modern browser.
+<video 
+    width="640" 
+    height="360" 
+    controls 
+    preload="none" 
+    poster="../video/lm.png" 
+    class="video-container">
+    <source src="../video/lunar.mp4" type="video/mp4">
+    <p>Your browser does not support HTML5 video. Please use a modern browser.</p>
 </video>
+
+<video 
+    width="640" 
+    height="360" 
+    controls 
+    preload="none" 
+    poster="../video/lm.png" 
+    class="video-container">
+    <source src="../video/lunarorbit.mkv" type="video/webm">
+    <p>Your browser does not support HTML5 video. Please use a modern browser.</p>
+</video>
+
+
 
 
 
