@@ -5,6 +5,10 @@
          <lastmod>2024-11-16</lastmod>
     </url>
     <url>
+         <loc>https://ocrobotix.github.io/lunarlander/Untitled1.html</loc>
+         <lastmod>2024-11-16</lastmod>
+    </url>
+    <url>
          <loc>https://ocrobotix.github.io/lunarlander/about.html</loc>
          <lastmod>2024-11-16</lastmod>
     </url>
@@ -13,7 +17,19 @@
          <lastmod>2024-11-16</lastmod>
     </url>
     <url>
+         <loc>https://ocrobotix.github.io/lunarlander/blog.html</loc>
+         <lastmod>2024-11-16</lastmod>
+    </url>
+    <url>
+         <loc>https://ocrobotix.github.io/lunarlander/clipboard.html</loc>
+         <lastmod>2024-11-16</lastmod>
+    </url>
+    <url>
          <loc>https://ocrobotix.github.io/lunarlander/hidden_page.html</loc>
+         <lastmod>2024-11-16</lastmod>
+    </url>
+    <url>
+         <loc>https://ocrobotix.github.io/lunarlander/APPENDIX/faqs.html</loc>
          <lastmod>2024-11-16</lastmod>
     </url>
     <url>
@@ -29,11 +45,11 @@
          <lastmod>2024-11-16</lastmod>
     </url>
     <url>
-         <loc>https://ocrobotix.github.io/lunarlander/INPUTS/environment.html</loc>
+         <loc>https://ocrobotix.github.io/lunarlander/INPUTS/environment_inputs.html</loc>
          <lastmod>2024-11-16</lastmod>
     </url>
     <url>
-         <loc>https://ocrobotix.github.io/lunarlander/INPUTS/vehicle.html</loc>
+         <loc>https://ocrobotix.github.io/lunarlander/INPUTS/vehicle_inputs.html</loc>
          <lastmod>2024-11-16</lastmod>
     </url>
     <url>
@@ -45,15 +61,11 @@
          <lastmod>2024-11-16</lastmod>
     </url>
     <url>
-         <loc>https://ocrobotix.github.io/lunarlander/OUTPUTS/ellipse.html</loc>
+         <loc>https://ocrobotix.github.io/lunarlander/OUTPUTS/landing_ellipse.html</loc>
          <lastmod>2024-11-16</lastmod>
     </url>
     <url>
-         <loc>https://ocrobotix.github.io/lunarlander/OUTPUTS/state.html</loc>
-         <lastmod>2024-11-16</lastmod>
-    </url>
-    <url>
-         <loc>https://ocrobotix.github.io/lunarlander/OUTPUTS/touchdown.html</loc>
+         <loc>https://ocrobotix.github.io/lunarlander/OUTPUTS/vehicle_state.html</loc>
          <lastmod>2024-11-16</lastmod>
     </url>
     <url>
