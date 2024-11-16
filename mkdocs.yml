@@ -29,16 +29,15 @@ nav:
   - References: APPENDIX/references.md
   - FAQs: APPENDIX/faqs.md
 
-
 - Blog: blog.md
 - About: about.md
-- Template: template1.md
-
+#- Template: template1.md
 
 - TEMPLATES:
   - Headings: TEMPLATES/head.md
   - Table of Contents: TEMPLATES/toc.md
-  - Image & Video: TEMPLATES/image-video.md
+  #- Image & Video: TEMPLATES/image-video.md
+  - Image & Video: TEMPLATES/lunar.md
   - Links & ID: TEMPLATES/links-id.md
   - Miscellaneous: TEMPLATES/misc.md
 

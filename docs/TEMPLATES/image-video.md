@@ -22,7 +22,7 @@ Click the play button below to watch:
     width="640"
     height="360"
     controls
-    preload="none"
+    preload="none"mkdocs
     poster="../../video/lunar2.png"
     class="video-container">
     <source src="../../docs/video/lunar.mp4" type="video/mp4">
@@ -46,14 +46,18 @@ Method 2
 
 Method 3
 
-<figure>
-    <img src="../img/test.png" width="500"  alt="My image">
-    <figcaption>This is my caption</figcaption>
-</figure>
 
 <figure>
     <a href="https://www.nasa.gov/news-release/nasa-provides-update-on-artemis-iii-moon-landing-regions/">
-        <img src="../img/artemis-iii-landing-region-candidates.webp" width="300"  alt="My image">
+        <img src="../../docs/img/artemis-iii-landing-region-candidates.webp" width="300"  alt="My image">
+    </a>
+    <figcaption>This is my caption</figcaption>
+</figure>
+
+
+<figure>
+    <a href="https://www.nasa.gov/">
+        <img src="../img/south.webp" width="300"  alt="My image">
     </a>
     <figcaption>This is my caption</figcaption>
 </figure>
