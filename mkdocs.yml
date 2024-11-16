@@ -8,7 +8,7 @@ theme:
 extra_css:
   - css/extra.css
   - css/footer.css
-  #- css/theme_color.css
+  - css/theme_color.css
 
 nav:
 - INPUTS:
@@ -29,10 +29,20 @@ nav:
   - References: APPENDIX/references.md
   - FAQs: APPENDIX/faqs.md
 
+
 - Blog: blog.md
 - About: about.md
-- Embed: embed.md
-- Template: template.md
+- Template: template1.md
+
+
+- TEMPLATES:
+  - Headings: TEMPLATES/head.md
+  - Table of Contents: TEMPLATES/toc.md
+  - Image & Video: TEMPLATES/image-video.md
+  - Links & ID: TEMPLATES/links-id.md
+  - Miscellaneous: TEMPLATES/misc.md
+
+
 
 plugins:
   - search
