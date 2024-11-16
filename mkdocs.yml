@@ -13,16 +13,17 @@ extra_css:
   - css/extra.css
   - css/footer.css
   - css/theme_color.css
+  - css/collapse.css
 
 nav:
 - INPUTS:
   - Vehicle Parameters: INPUTS/vehicle.ipynb
-  - Lunar Environment Variables: INPUTS/environment.ipynb
+  - Environment Variables: INPUTS/environment.ipynb
 
 - OUTPUTS:
-  - Vehicle State: OUTPUTS/state.ipynb
   - Landing Ellipse: OUTPUTS/ellipse.ipynb
   - Touchdown Location: OUTPUTS/touchdown.ipynb
+  - Vehicle State: OUTPUTS/state.ipynb
 
 - MODELS:
   - Apollo: MODELS/apollo.ipynb
@@ -34,17 +35,17 @@ nav:
   - FAQs: APPENDIX/faqs.md
 
 - Blog: blog.md
-- About: about.md
+#- About: about.md
 #- Template: template1.md
 
 - TEMPLATES:
-  - Headings: TEMPLATES/head.md
-  - Table of Contents: TEMPLATES/toc.md
-  - Image & Video: TEMPLATES/iframe-image-video.md
-  - Navigate: TEMPLATES/navigate.md
-  - Miscellaneous: TEMPLATES/misc.md
-
-
+  - Collapse: TEMPLATES/collapse.md
+  - Collapse2: TEMPLATES/collapse-mkdocs.md
+#  - Headings: TEMPLATES/head.md
+#  - Table of Contents: TEMPLATES/toc.md
+#  - Image & Video: TEMPLATES/iframe-image-video.md
+#  - Navigate: TEMPLATES/navigate.md
+#  - Miscellaneous: TEMPLATES/misc.md
 
 plugins:
   - search
@@ -58,3 +59,6 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.highlight
   - attr_list
+  - pymdownx.details
+
+
