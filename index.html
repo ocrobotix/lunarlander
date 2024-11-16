@@ -11,10 +11,11 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
         <link href="css/extra.css" rel="stylesheet" />
         <link href="css/footer.css" rel="stylesheet" />
+        <link href="css/theme_color.css" rel="stylesheet" />
     
       <script>
         // Current page data
-        var mkdocs_page_name = "The Mission";
+        var mkdocs_page_name = "Background";
         var mkdocs_page_input_path = "index.md";
         var mkdocs_page_url = "/lunarlander/";
       </script>
@@ -82,12 +83,21 @@
                 </li>
               </ul>
               <ul>
-                <li class="toctree-l1"><a class="reference internal" href="embed/">Embed</a>
+                <li class="toctree-l1"><a class="" href="template1.md">Template</a>
                 </li>
               </ul>
+              <p class="caption"><span class="caption-text">TEMPLATES</span></p>
               <ul>
-                <li class="toctree-l1"><a class="reference internal" href="template/">Template</a>
-                </li>
+                  <li class="toctree-l1"><a class="reference internal" href="TEMPLATES/head/">Headings</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="TEMPLATES/toc/">Table of Contents</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="TEMPLATES/image-video/">Image & Video</a>
+                  </li>
+                  <li class="toctree-l1"><a class="" href="TEMPLATES/links-id.md">Links & ID</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="TEMPLATES/misc/">Miscellaneous</a>
+                  </li>
               </ul>
       </div>
     </div>
@@ -103,7 +113,7 @@
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
     <li><a href="." class="icon icon-home" aria-label="Docs"></a></li>
-      <li class="breadcrumb-item active">The Mission</li>
+      <li class="breadcrumb-item active">Background</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -112,21 +122,36 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h1 id="the-mission">The Mission<a class="headerlink" href="#the-mission" title="Permanent link">&para;</a></h1>
-<p>For full documentation visit <a href="https://www.mkdocs.org">mkdocs.org</a>.</p>
-<h2 id="commands">Commands<a class="headerlink" href="#commands" title="Permanent link">&para;</a></h2>
+                <h1 id="background">Background<a class="headerlink" href="#background" title="Permanent link">&para;</a></h1>
 <ul>
-<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
-<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
-<li><code>mkdocs build</code> - Build the documentation site.</li>
-<li><code>mkdocs -h</code> - Print help message and exit.</li>
+<li><a href="#background">Background</a></li>
+<li><a href="#background-1">Background</a></li>
+<li><a href="#status">Status</a></li>
+<li><a href="#the-mission">The Mission</a></li>
 </ul>
-<h2 id="project-layout">Project layout<a class="headerlink" href="#project-layout" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code>mkdocs.yml    # The configuration file.
-docs/
-    index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
-</code></pre></div>
+<h2 id="background_1">Background<a class="headerlink" href="#background_1" title="Permanent link">&para;</a></h2>
+<p>Apollo Lunar Module descent simulation C/O Mathworks</p>
+<video 
+    width="640" 
+    height="360" 
+    controls 
+    preload="none" 
+    poster="./video/lunar2.png" 
+    class="video-container">
+    <source src="../video/lunar.mp4" type="video/mp4">
+    <source src="../video/lunarorbit.mkv" type="video/webm">
+    <p>Your browser does not support HTML5 video. Please use a modern browser.</p>
+</video>
+
+<figure>
+    <a href="https://www.nasa.gov/news-release/nasa-provides-update-on-artemis-iii-moon-landing-regions/">
+        <img src="./img/artemis-iii-landing-region-candidates.webp" width="300"  alt="My image">
+    </a>
+    <figcaption>This is my caption</figcaption>
+</figure>
+
+<h1 id="status">Status<a class="headerlink" href="#status" title="Permanent link">&para;</a></h1>
+<h1 id="the-mission">The Mission<a class="headerlink" href="#the-mission" title="Permanent link">&para;</a></h1>
               
             </div>
           </div><footer>
@@ -170,5 +195,5 @@ docs/
 
 <!--
 MkDocs version : 1.6.1
-Build Date UTC : 2024-11-15 21:10:03.486039+00:00
+Build Date UTC : 2024-11-16 01:29:16.393599+00:00
 -->
