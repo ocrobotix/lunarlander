@@ -1,5 +1,9 @@
 site_name: Lunar Lander
 site_url: https://ocrobotix.github.io/lunarlander/
+docs_dir: docs
+site_dir: site
+use_directory_urls: false
+
 
 theme:
   name: readthedocs
@@ -36,9 +40,8 @@ nav:
 - TEMPLATES:
   - Headings: TEMPLATES/head.md
   - Table of Contents: TEMPLATES/toc.md
-  #- Image & Video: TEMPLATES/image-video.md
-  - Image & Video: TEMPLATES/lunar.md
-  - Links & ID: TEMPLATES/links-id.md
+  - Image & Video: TEMPLATES/iframe-image-video.md
+  - Navigate: TEMPLATES/navigate.md
   - Miscellaneous: TEMPLATES/misc.md
 
 
@@ -54,3 +57,4 @@ markdown_extensions:
       permalink: true
   - pymdownx.superfences
   - pymdownx.highlight
+  - attr_list
