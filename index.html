@@ -12,10 +12,11 @@
         <link href="css/extra.css" rel="stylesheet" />
         <link href="css/footer.css" rel="stylesheet" />
         <link href="css/theme_color.css" rel="stylesheet" />
+        <link href="css/collapse.css" rel="stylesheet" />
     
       <script>
         // Current page data
-        var mkdocs_page_name = "Background";
+        var mkdocs_page_name = "About this Site";
         var mkdocs_page_input_path = "index.md";
         var mkdocs_page_url = "/lunarlander/index.html";
       </script>
@@ -46,16 +47,16 @@
               <ul>
                   <li class="toctree-l1"><a class="reference internal" href="INPUTS/vehicle.html">Vehicle Parameters</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="INPUTS/environment.html">Lunar Environment Variables</a>
+                  <li class="toctree-l1"><a class="reference internal" href="INPUTS/environment.html">Environment Variables</a>
                   </li>
               </ul>
               <p class="caption"><span class="caption-text">OUTPUTS</span></p>
               <ul>
-                  <li class="toctree-l1"><a class="reference internal" href="OUTPUTS/state.html">Vehicle State</a>
-                  </li>
                   <li class="toctree-l1"><a class="reference internal" href="OUTPUTS/ellipse.html">Landing Ellipse</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="OUTPUTS/touchdown.html">Touchdown Location</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="OUTPUTS/state.html">Vehicle State</a>
                   </li>
               </ul>
               <p class="caption"><span class="caption-text">MODELS</span></p>
@@ -78,21 +79,11 @@
                 <li class="toctree-l1"><a class="reference internal" href="blog.html">Blog</a>
                 </li>
               </ul>
-              <ul>
-                <li class="toctree-l1"><a class="reference internal" href="about.html">About</a>
-                </li>
-              </ul>
               <p class="caption"><span class="caption-text">TEMPLATES</span></p>
               <ul>
-                  <li class="toctree-l1"><a class="" href="TEMPLATES/head.md">Headings</a>
+                  <li class="toctree-l1"><a class="reference internal" href="TEMPLATES/collapse.html">Collapse</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="TEMPLATES/toc.html">Table of Contents</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="TEMPLATES/iframe-image-video.html">Image & Video</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="TEMPLATES/navigate.html">Navigate</a>
-                  </li>
-                  <li class="toctree-l1"><a class="" href="TEMPLATES/misc.md">Miscellaneous</a>
+                  <li class="toctree-l1"><a class="reference internal" href="TEMPLATES/collapse-mkdocs.html">Collapse2</a>
                   </li>
               </ul>
       </div>
@@ -109,7 +100,7 @@
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
     <li><a href="." class="icon icon-home" aria-label="Docs"></a></li>
-      <li class="breadcrumb-item active">Background</li>
+      <li class="breadcrumb-item active">About this Site</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -118,15 +109,21 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h1 id="background">Background<a class="headerlink" href="#background" title="Permanent link">&para;</a></h1>
-<ul>
-<li><a href="#background">Background</a></li>
-<li><a href="#background-1">Background</a></li>
-<li><a href="#status">Status</a></li>
-<li><a href="#the-mission">The Mission</a></li>
-</ul>
-<h2 id="background_1">Background<a class="headerlink" href="#background_1" title="Permanent link">&para;</a></h2>
-<p>Apollo Lunar Module descent simulation C/O Mathworks</p>
+                <h1 id="about-this-site">About this Site<a class="headerlink" href="#about-this-site" title="Permanent link">&para;</a></h1>
+<p>This is a temporary "open-innovation" site to gather feedback on modeling the Apollo and Artemis Moon landings. Documentation is selective and by exception. All content on this site has been pulled / derived from the public domain. The site will be open for private comments until end of 2024.</p>
+<h2 id="captains-log">Captain's Log</h2>
+
+<hr />
+<details>
+  <summary>16 November 2024</summary>
+  <br>
+  <p>
+  Reviewed Mathwork's <a href="https://www.mathworks.com/help/simulink/slref/developing-the-apollo-lunar-module-digital-autopilot.html">Lunar Module model</a>  developed for Apollo's 50th anniversary celebration. Model can only orbit the Moon but not land.
+   </p>
+</details>
+
+<p><br>
+Apollo Lunar Module descent simulation C/O Mathworks</p>
 <video 
     width="640" 
     height="360" 
@@ -138,16 +135,29 @@
     <source src="../video/lunarorbit.mkv" type="video/webm">
     <p>Your browser does not support HTML5 video. Please use a modern browser.</p>
 </video>
+<p><br></p>
+<h2 id="_1"><br><a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<details>
+  <summary>15 November 2024</summary>
+  <br>
+  <p> Click image below for article on updated (Oct 2024) landings sites for Artemis III
+
+  </p>
+  <br>
+
+</details>
 
 <figure>
     <a href="https://www.nasa.gov/news-release/nasa-provides-update-on-artemis-iii-moon-landing-regions/">
-        <img src="./img/artemis-iii-landing-region-candidates.webp" width="300"  alt="My image">
+        <img src="./img/artemis-iii-landing-region-candidates.webp" width="500"  alt="My image">
     </a>
-    <figcaption>This is my caption</figcaption>
+    <figcaption>Artemis III Landing Sites (UpdatedOctober 2024) </figcaption>
 </figure>
 
-<h1 id="status">Status<a class="headerlink" href="#status" title="Permanent link">&para;</a></h1>
-<h1 id="the-mission">The Mission<a class="headerlink" href="#the-mission" title="Permanent link">&para;</a></h1>
+<hr />
+<p><br></p>
+<p><a href="#captains-log">Back to Top</a></p>
+<p><br></p>
               
             </div>
           </div><footer>
@@ -191,5 +201,5 @@
 
 <!--
 MkDocs version : 1.6.1
-Build Date UTC : 2024-11-16 16:21:28.279267+00:00
+Build Date UTC : 2024-11-16 19:03:48.838997+00:00
 -->
