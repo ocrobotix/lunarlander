@@ -17,24 +17,24 @@ extra_css:
 
 nav:
 - INPUTS:
-  - Vehicle Parameters: INPUTS/vehicle.ipynb
-  - Environment Variables: INPUTS/environment.ipynb
+  - Vehicle Parameters: INPUTS/vehicle_inputs.ipynb
+  - Lunar Environment Variables: INPUTS/environment_inputs.ipynb
 
 - OUTPUTS:
-  - Landing Ellipse: OUTPUTS/ellipse.ipynb
-  - Touchdown Location: OUTPUTS/touchdown.ipynb
-  - Vehicle State: OUTPUTS/state.ipynb
+  - Landing Ellipse: OUTPUTS/landing_ellipse.ipynb
+  #- Touchdown Location: OUTPUTS/touchdown.ipynb
+  - Vehicle State: OUTPUTS/vehicle_state.ipynb
 
 - MODELS:
   - Apollo: MODELS/apollo.ipynb
   - Artemis: MODELS/artemis.ipynb
 
 - APPENDIX:
-  - Glossary: APPENDIX/glossary.md
-  - References: APPENDIX/references.md
-  - FAQs: APPENDIX/faqs.md
+  - Glossary: APPENDIX/glossary.ipynb
+  - References: APPENDIX/references.ipynb
+  - FAQs: APPENDIX/faqs.ipynb
 
-- Blog: blog.md
+- Blog: blog.ipynb
 #- About: about.md
 #- Template: template1.md
 
