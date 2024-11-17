@@ -31,10 +31,10 @@ nav:
 - APPENDIX:
   - Glossary: APPENDIX/glossary.ipynb
   - FAQs: APPENDIX/faqs.ipynb
-  - References: APPENDIX/references_resources.ipynb
+  - Resources: APPENDIX/references_resources.ipynb
   - Sandbox: APPENDIX/sandbox.md
 
-- Blog: DO.md
+- FEEDBACK: comments.md
 #- About: about.md
 
 
