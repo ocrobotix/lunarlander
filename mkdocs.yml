@@ -31,16 +31,21 @@ nav:
 
 - APPENDIX:
   - Glossary: APPENDIX/glossary.ipynb
-  - References: APPENDIX/references.ipynb
+  #- References: APPENDIX/references_resources.ipynb
+  - Sandbox: APPENDIX/sandbox.md
   - FAQs: APPENDIX/faqs.ipynb
 
-- Blog: blog.ipynb
+- Blog: blog.md
 #- About: about.md
-#- Template: template1.md
 
-- TEMPLATES:
-  - Collapse: TEMPLATES/collapse.md
-  - Collapse2: TEMPLATES/collapse-mkdocs.md
+#- SANDBOX:
+  #- Exploitation: SANDBOX/__.md
+  #- Expedition: SANDBOX/__.md
+  #- Exploration: SANDBOX/__.md
+
+#- TEMPLATES:
+  #- Collapse: TEMPLATES/collapse.md
+  #- Collapse2: TEMPLATES/collapse-mkdocs.md
 #  - Headings: TEMPLATES/head.md
 #  - Table of Contents: TEMPLATES/toc.md
 #  - Image & Video: TEMPLATES/iframe-image-video.md
