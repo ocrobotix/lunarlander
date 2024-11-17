@@ -34,9 +34,16 @@
             line-height: 20px;
         }
     </style>
+
+    <title>Scoped Roboto Mono Font</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <div class="upload-container">
+    <p>This is normal text.</p>
+    <p><span style="font-family: 'Roboto Mono', monospace;">This is text in Roboto Mono.</span></p>
+
         <h1>Upload a File</h1>
         <input type="file" id="fileInput">
         <button id="uploadButton">Upload</button>

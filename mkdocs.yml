@@ -36,7 +36,7 @@ nav:
       - Comment: FEEDBACK/comment.md
       - Upload: FEEDBACK/upload.md
 
-  #- z_clipboard:
+  - z_clipboard:
   #    - Collapse: z_clipboard/collapse.md
   #    - Collapse2: z_clipboard/collapse-mkdocs.md
   #    - Headings: z_clipboard/head.md
@@ -44,6 +44,8 @@ nav:
   #    - Image & Video: z_clipboard/iframe-image-video.md
   #    - Navigate: z_clipboard/navigate.md
   #    - Miscellaneous: z_clipboard/misc.md
+      - fonts: z_clipboard/fonts.md
+      - upload: z_clipboard/upload.md
 
 plugins:
   - search
