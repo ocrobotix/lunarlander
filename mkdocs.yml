@@ -1,6 +1,7 @@
 site_name: Lunar Lander
 site_url: https://ocrobotix.github.io/lunarlander/
 docs_dir: docs
+exclude_patterns: ['.ipynb_checkpoints']
 site_dir: site
 use_directory_urls: false
 
@@ -33,8 +34,9 @@ nav:
   - References: APPENDIX/references_resources.ipynb
   - Sandbox: APPENDIX/sandbox.md
 
-- Blog: blo.md
+- Blog: DO.md
 #- About: about.md
+ - Notes: notes.ipynb
 
 #- SANDBOX:
   #- Exploitation: SANDBOX/__.md
@@ -48,6 +50,7 @@ nav:
 #  - Image & Video: TEMPLATES/iframe-image-video.md
 #  - Navigate: TEMPLATES/navigate.md
 #  - Miscellaneous: TEMPLATES/misc.md
+
 
 plugins:
   - search

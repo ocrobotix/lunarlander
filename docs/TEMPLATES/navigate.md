@@ -11,12 +11,12 @@ Some introductory text. Use this section to explain the purpose of your document
 Some detailed text. You can navigate here by clicking on this link:  
 [Go to Subsection](#subsection)
 
-###[ h3- Subsection]()
+### Subsection
 
 Some subsection text. If you want to navigate back to the Details section, click here:  
 [Go to Details](#details)
 
-## h2 - Custom Anchor Example
+## Custom Anchor
 
 Sometimes, you may want to use a custom anchor instead of relying on the automatically generated ones. Here’s how:
 
@@ -25,7 +25,7 @@ Sometimes, you may want to use a custom anchor instead of relying on the automat
 This is an example of a custom anchor. You can navigate here by clicking this link:  
 [Go to Custom Anchor](#custom-anchor)
 
-## h2 - Summary {#custom-h2}
+## Summary
 
 The syntax for anchors and links start with  'custom-xxxx'
 
@@ -46,7 +46,8 @@ Text after the break
 
 #### h4 - Conclude
 * Use heading anchors for automatic IDs, like this:  
-  [Back to Summary](#custom-h2)
+  [Back to Summary](#summary)
 
+#### Details
 
 Now you have a fully navigable document!
