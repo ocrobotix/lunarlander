@@ -16,49 +16,45 @@ extra_css:
   - css/collapse.css
 
 nav:
-- INPUTS:
-  - Vehicle Parameters: INPUTS/vehicle_inputs.ipynb
-  - Lunar Environment Variables: INPUTS/environment_inputs.ipynb
+  - Home: index.md
+  - INPUTS:
+      - Vehicle Parameters: INPUTS/vehicle_inputs.ipynb
+      - Lunar Environment Variables: INPUTS/environment_inputs.ipynb
+  - OUTPUTS:
+      - Landing Ellipse: OUTPUTS/landing_ellipse.ipynb
+      - Vehicle State: OUTPUTS/vehicle_state.ipynb
+  - MODELS:
+      - Apollo: MODELS/apollo.ipynb
+      - Artemis: MODELS/artemis.ipynb
+  - APPENDIX:
+      - Glossary: APPENDIX/glossary.ipynb
+      - FAQs: APPENDIX/faqs.ipynb
+      - Resources: APPENDIX/resources.ipynb
+      - Sandbox: APPENDIX/sandbox.md
+  - FEEDBACK:
+      - Blog: FEEDBACK/blog.md
+      - Comment: FEEDBACK/comment.md
+      - Upload: FEEDBACK/upload.md
 
-- OUTPUTS:
-  - Landing Ellipse: OUTPUTS/landing_ellipse.ipynb
-  - Vehicle State: OUTPUTS/vehicle_state.ipynb
-
-- MODELS:
-  - Apollo: MODELS/apollo.ipynb
-  - Artemis: MODELS/artemis.ipynb
-
-- APPENDIX:
-  - Glossary: APPENDIX/glossary.ipynb
-  - FAQs: APPENDIX/faqs.ipynb
-  - Resources: APPENDIX/references_resources.ipynb
-  - Sandbox: APPENDIX/sandbox.md
-
-- FEEDBACK:
-  - Blog: FEEDBACK/blog.md
-  - Comment: FEEDBACK/comment.md
-  - Upload: FEEDBACK/upload.md
-
-#- SANDBOX:
-  #- Exploitation: SANDBOX/__.md
-  #- Expedition: SANDBOX/__.md
-  #- Exploration: SANDBOX/__.md
-#- TEMPLATES:
-  #- Collapse: TEMPLATES/collapse.md
-  #- Collapse2: TEMPLATES/collapse-mkdocs.md
-#  - Headings: TEMPLATES/head.md
-#  - Table of Contents: TEMPLATES/toc.md
-#  - Image & Video: TEMPLATES/iframe-image-video.md
-#  - Navigate: TEMPLATES/navigate.md
-#  - Miscellaneous: TEMPLATES/misc.md
-
+  #- z_clipboard:
+  #    - Collapse: z_clipboard/collapse.md
+  #    - Collapse2: z_clipboard/collapse-mkdocs.md
+  #    - Headings: z_clipboard/head.md
+  #    - Table of Contents: z_clipboard/toc.md
+  #    - Image & Video: z_clipboard/iframe-image-video.md
+  #    - Navigate: z_clipboard/navigate.md
+  #    - Miscellaneous: z_clipboard/misc.md
 
 plugins:
   - search
   - mkdocs-jupyter
   - git-revision-date
-  #- blogging
-  - blog
+  # - blogging
+  - blog:
+      path: FEEDBACK
+      tags: true
+      archive: true
+      rss: false
 
 markdown_extensions:
   - toc:

@@ -24,8 +24,8 @@ Apollo Lunar Module descent simulation C/O Mathworks
     preload="none" 
     poster="./video/lunar2.png" 
     class="video-container">
-    <source src="../video/lunar.mp4" type="video/mp4">
-    <source src="../video/lunarorbit.mkv" type="video/webm">
+    <source src="./video/lunar.mp4" type="video/mp4">
+    <source src="./video/lunar2.mkv" type="video/webm">
     <p>Your browser does not support HTML5 video. Please use a modern browser.</p>
 </video>
 <br>

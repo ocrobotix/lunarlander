@@ -37,7 +37,7 @@
 </head>
 <body>
     <div class="upload-container">
-        <h1>Upload a File</h1>
+        <h1>Upload File</h1>
         <h2>(under development)</h2>
         <input type="file" id="fileInput">
         <button id="uploadButton">Upload</button>
@@ -100,6 +100,6 @@
 </html>
 
 <!-- Add blank spaces -->
-<div style="height: 50px;"></div>
+<div style="height: 400px;"></div>
 
 
