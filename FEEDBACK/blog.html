@@ -34,7 +34,7 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
     <div class="wy-side-scroll">
       <div class="wy-side-nav-search">
-          <a href=".." class="icon icon-home"> Lunar Lander
+          <a href="../index.html" class="icon icon-home"> Lunar Lander
         </a><div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
       <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
@@ -43,6 +43,10 @@
       </div>
 
       <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../index.html">Home</a>
+                </li>
+              </ul>
               <p class="caption"><span class="caption-text">INPUTS</span></p>
               <ul>
                   <li class="toctree-l1"><a class="reference internal" href="../INPUTS/vehicle_inputs.html">Vehicle Control Inputs</a>
@@ -70,7 +74,7 @@
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../APPENDIX/faqs.html">FAQs</a>
                   </li>
-                  <li class="toctree-l1"><a class="" href="../APPENDIX/references_resources.ipynb">Resources</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../APPENDIX/resources.html">Resources</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../APPENDIX/sandbox.html">Sandbox</a>
                   </li>
@@ -93,13 +97,13 @@
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
       <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="..">Lunar Lander</a>
+          <a href="../index.html">Lunar Lander</a>
         
       </nav>
       <div class="wy-nav-content">
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
-    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+    <li><a href="../index.html" class="icon icon-home" aria-label="Docs"></a></li>
           <li class="breadcrumb-item">FEEDBACK</li>
       <li class="breadcrumb-item active">Blog</li>
     <li class="wy-breadcrumbs-aside">
@@ -110,78 +114,9 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h2 id="_1"><br><a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
-<h1 id="uploads">Uploads<a class="headerlink" href="#uploads" title="Permanent link">&para;</a></h1>
-<!-- #raw -->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>File Upload</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 20px;
-      text-align: center;
-    }
-    .file-upload {
-      margin: 20px 0;
-    }
-    .preview {
-      margin-top: 20px;
-      padding: 10px;
-      border: 1px solid #ddd;
-      border-radius: 5px;
-    }
-  </style>
-</head>
-<body>
-  <h1>File Upload Example</h1>
-  <p>Select a file to upload and preview its name below:</p>
-
-  <div class="file-upload">
-    <input type="file" id="fileInput">
-    <p id="fileName">No file selected</p>
-  </div>
-
-  <div class="preview" id="filePreview">
-    <p>No file uploaded yet.</p>
-  </div>
-
-  <script>
-    const fileInput = document.getElementById('fileInput');
-    const fileName = document.getElementById('fileName');
-    const filePreview = document.getElementById('filePreview');
-
-    fileInput.addEventListener('change', () => {
-      const file = fileInput.files[0];
-
-      if (file) {
-        fileName.textContent = `Selected file: ${file.name}`;
-
-        // Optional: If the file is an image, preview it
-        if (file.type.startsWith('image/')) {
-          const reader = new FileReader();
-          reader.onload = function (e) {
-            filePreview.innerHTML = `<img src="${e.target.result}" alt="Preview" style="max-width: 100%; height: auto;">`;
-          };
-          reader.readAsDataURL(file);
-        } else {
-          filePreview.innerHTML = `<p>Preview is not available for this file type.</p>`;
-        }
-      } else {
-        fileName.textContent = 'No file selected';
-        filePreview.innerHTML = '<p>No file uploaded yet.</p>';
-      }
-    });
-  </script>
-</body>
-</html>
-
-<!-- #endraw -->
-<h2 id="_2"><br><a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
-<!-- ***************************************** -->
+                <h2 id="feature-is-not-ready">Feature is not ready<a class="headerlink" href="#feature-is-not-ready" title="Permanent link">&para;</a></h2>
+<h2 id="please-go-to-captains-log-on-the-home-page">Please go to Captain's Log on the Home Page<a class="headerlink" href="#please-go-to-captains-log-on-the-home-page" title="Permanent link">&para;</a></h2>
+<div style="height: 500px;"></div>
               
             </div>
           </div><footer>
