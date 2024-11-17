@@ -1,6 +1,7 @@
 venv/
 docs/assets/login.html
-docs/notes.ipynb
+docs/README.ipynb
+
 
 # Ignore Jupyter Notebook checkpoints
 .ipynb_checkpoints/
