@@ -4,7 +4,6 @@ docs_dir: docs
 site_dir: site
 use_directory_urls: false
 
-
 theme:
   name: readthedocs
   navigation_depth: 5  # Number of header levels shown
@@ -22,7 +21,6 @@ nav:
 
 - OUTPUTS:
   - Landing Ellipse: OUTPUTS/landing_ellipse.ipynb
-  #- Touchdown Location: OUTPUTS/touchdown.ipynb
   - Vehicle State: OUTPUTS/vehicle_state.ipynb
 
 - MODELS:
@@ -31,18 +29,17 @@ nav:
 
 - APPENDIX:
   - Glossary: APPENDIX/glossary.ipynb
-  #- References: APPENDIX/references_resources.ipynb
-  - Sandbox: APPENDIX/sandbox.md
   - FAQs: APPENDIX/faqs.ipynb
+  - References: APPENDIX/references_resources.ipynb
+  - Sandbox: APPENDIX/sandbox.md
 
-- Blog: blog.md
+- Blog: blo.md
 #- About: about.md
 
 #- SANDBOX:
   #- Exploitation: SANDBOX/__.md
   #- Expedition: SANDBOX/__.md
   #- Exploration: SANDBOX/__.md
-
 #- TEMPLATES:
   #- Collapse: TEMPLATES/collapse.md
   #- Collapse2: TEMPLATES/collapse-mkdocs.md
@@ -65,5 +62,3 @@ markdown_extensions:
   - pymdownx.highlight
   - attr_list
   - pymdownx.details
-
-
