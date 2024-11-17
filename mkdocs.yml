@@ -34,9 +34,10 @@ nav:
   - Resources: APPENDIX/references_resources.ipynb
   - Sandbox: APPENDIX/sandbox.md
 
-- FEEDBACK: comments.md
-#- About: about.md
-
+- FEEDBACK:
+  - Blog: FEEDBACK/blog.md
+  - Comment: FEEDBACK/comment.md
+  - Upload: FEEDBACK/upload.md
 
 #- SANDBOX:
   #- Exploitation: SANDBOX/__.md
@@ -56,7 +57,8 @@ plugins:
   - search
   - mkdocs-jupyter
   - git-revision-date
-  - blogging
+  #- blogging
+  - blog
 
 markdown_extensions:
   - toc:
