@@ -18,8 +18,8 @@ extra_css:
 nav:
   - Home: index.md
   - INPUTS:
-      - Vehicle Parameters: INPUTS/vehicle_inputs.ipynb
-      - Lunar Environment Variables: INPUTS/environment_inputs.ipynb
+      - Vehicle Control: INPUTS/vehicle_inputs.ipynb
+      - Lunar Environment: INPUTS/environment_inputs.ipynb
   - OUTPUTS:
       - Landing Ellipse: OUTPUTS/landing_ellipse.ipynb
       - Vehicle State: OUTPUTS/vehicle_state.ipynb
