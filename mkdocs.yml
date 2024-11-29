@@ -26,6 +26,12 @@ nav:
   - MODELS:
       - Apollo: MODELS/apollo.ipynb
       - Artemis: MODELS/artemis.ipynb
+  - DATA:
+      #- Lunar: DATA/lunar_data.ipynb
+      #- Vehicle: DATA/lunar_vehicle.ipynb
+      - Lunar: DATA/lunar_data.md
+      - Vehicle: DATA/lunar_vehicle.md
+      
   - APPENDIX:
       - Glossary: APPENDIX/glossary.ipynb
       - FAQs: APPENDIX/faqs.ipynb
