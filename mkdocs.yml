@@ -26,13 +26,16 @@ nav:
   - MODELS:
       - Apollo: MODELS/apollo.ipynb
       - Artemis: MODELS/artemis.ipynb
+  - ASSUMPTIONS:
+      - Mission: ASSUMPTIONS/mission_ass.ipynb
+      - Modeling: ASSUMPTIONS/modeling_ass.ipynb
   - DATA:
-      - Lunar: DATA/lunar_data.md
-      - Vehicle: DATA/vehicle_data.md
+      - Lunar: DATA/lunar_data.ipynb
+      - Vehicle: DATA/vehicle_data.ipynb
   - APPENDIX:
       - Glossary: APPENDIX/glossary.ipynb
-      - FAQs: APPENDIX/faqs.ipynb
       - Resources: APPENDIX/resources.ipynb
+      - FAQs/UAQs: APPENDIX/faqs.ipynb
       - Sandbox: APPENDIX/sandbox.md
   - FEEDBACK:
       - Blog: FEEDBACK/blog.md
