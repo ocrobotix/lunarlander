@@ -1,4 +1,0 @@
-# About this Lunar Data
-
-This is an experimental open-innovation site to collaborate on modeling the Apollo and Artemis Moon Landings. Documentation is selective and by exception. It is assumed that reviewers have some background on both missions.
-

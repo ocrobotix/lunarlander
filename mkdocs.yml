@@ -36,6 +36,7 @@ nav:
       - Glossary: APPENDIX/glossary.ipynb
       - Resources: APPENDIX/resources.ipynb
       - FAQs/UAQs: APPENDIX/faqs.ipynb
+      - Lunar Missions: APPENDIX/lunar_missions.ipynb
       - Sandbox: APPENDIX/sandbox.md
   - FEEDBACK:
       - Blog: FEEDBACK/blog.md
