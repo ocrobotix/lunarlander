@@ -21,6 +21,7 @@ nav:
       - Vehicle Control: INPUTS/vehicle_inputs.ipynb
       - Lunar Environment: INPUTS/environment_inputs.ipynb
   - OUTPUTS:
+      - Site Selection: OUTPUTS/site_selection.ipynb
       - Landing Ellipse: OUTPUTS/landing_ellipse.ipynb
       - Vehicle State: OUTPUTS/vehicle_state.ipynb
   - MODELS:
