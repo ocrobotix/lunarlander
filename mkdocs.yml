@@ -43,6 +43,7 @@ nav:
       - Blog: FEEDBACK/blog.md
       - Comment: FEEDBACK/comment.md
       - Upload: FEEDBACK/upload.md
+      - Meet: FEEDBACK/slide.md
 
   #- z_clipboard:
   #    - Collapse: z_clipboard/collapse.md
