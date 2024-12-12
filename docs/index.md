@@ -2,9 +2,23 @@
 
 This is an experimental open-innovation site to collaborate on modeling the Apollo and Artemis Moon Landings. Documentation is selective and by exception. It is assumed that reviewers have some background on both missions.
 
-All content on this site has been derived from the public domain. The site will be open to comments by invited organizations until end of 2024.
+All content on this site has been derived from the public domain. The site will be open to comments by invited organizations until end of 2024. 
 
 <h2 id="captains-log">Captain's Log</h2>
+
+---
+<!--*************    2 December 2024      ****************-->
+
+<details>
+  <summary>2 December 2024 - Lunar South Pole Videos </summary>
+  <br>
+  <p>
+  Uploaded videos of South Pole taken from NASA's LRO mission  
+      <a href="DATA/lunar_data.html">Go to Lunar Data</a>
+
+
+   </p>
+</details>
 
 ---
 
